@@ -1,0 +1,19 @@
+# Python bytecode caching
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+.env
+
+# Large Datasets
+# (This blocks the massive .h5 files, but allows your data_loading.py script to pass through!)
+data/*.h5
+
+# Model Weights (CRUCIAL: This stops GitHub upload crashes)
+weights/
+*.pt
+
+# Papers and documentation
+*.pdf

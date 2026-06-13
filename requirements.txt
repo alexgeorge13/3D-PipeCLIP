@@ -1,0 +1,9 @@
+
+
+torch
+numpy
+h5py
+matplotlib
+scikit-learn
+tqdm
+git+https://github.com/openai/CLIP.git
