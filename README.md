@@ -134,11 +134,3 @@ Code-3D-PipeCLIP/
 └── README.md                             # Global project documentation
 
 ---
-
-## The End 
-
-=======
-# 3D-PipeCLIP: Leveraging Geometric-Language Alignment for Sewer Defect Classification from Point Cloud Data
-
-Code will be released soon.
->>>>>>> 193ba1f77484a3abbeb5218cfcf343b3f66e890a
