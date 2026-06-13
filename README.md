@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Readme for 3D-PipeCLIP
 
 A reproducible, local implementation of the 3D Pipe-CLIP framework. This repository provides a structured deep learning pipeline designed to pre-train a **DGCNN-CLIP** backbone on synthetic sewer pipe point clouds, perform cross-domain adaptation using minimal real-world data, and evaluate structural defects via geometric text-anchor embeddings.
@@ -137,3 +138,8 @@ Code-3D-PipeCLIP/
 
 ## The End 
 
+=======
+# 3D-PipeCLIP: Leveraging Geometric-Language Alignment for Sewer Defect Classification from Point Cloud Data
+
+Code will be released soon.
+>>>>>>> 193ba1f77484a3abbeb5218cfcf343b3f66e890a
