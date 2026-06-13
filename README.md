@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Readme for 3D-PipeCLIP
+# 3D-PipeCLIP
 
 A reproducible, local implementation of the 3D Pipe-CLIP framework. This repository provides a structured deep learning pipeline designed to pre-train a **DGCNN-CLIP** backbone on synthetic sewer pipe point clouds, perform cross-domain adaptation using minimal real-world data, and evaluate structural defects via geometric text-anchor embeddings.
 
