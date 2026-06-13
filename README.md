@@ -4,12 +4,18 @@ A reproducible, local implementation of the 3D Pipe-CLIP framework. This reposit
 
 If you make use of this code, the pipeline structure, or the baseline findings in your academic work, please cite the original conference paper:
 
-@INPROCEEDINGS{george20263d-pipeclip,
+#### BibTeX
+```bibtex
+@INPROCEEDINGS{george2026-3d-pipeclip,
   author={George, Alex and Karnezis, Aristeidis and Mihaylova, Lyudmila and Anderson, Sean},
   booktitle={2026 12th International Conference on Control, Decision and Information Technologies (CoDIT)}, 
   title={{3D-PipeCLIP: Leveraging Geometric-Language Alignment for Sewer Defect Classification from Point Cloud Data}}, 
   year={2026}
 }
+```
+
+#### Standard Text
+> George, A., Karnezis, A., Mihaylova, L., & Anderson, S. (2026). 3D-PipeCLIP: Leveraging Geometric-Language Alignment for Sewer Defect Classification from Point Cloud Data. In 2026 12th International Conference on Control, Decision and Information Technologies (CoDIT).
 
 ---
 
@@ -111,8 +117,9 @@ To draw comparative 3D point cloud projections of anomalies (Normal, Displaced J
 
 ## 📂 Repository Tree Layout
 
+```text
 Code-3D-PipeCLIP/
-├── data/                                 # Central HDF5 data storage directory
+├── data/                                 # Central HDF5 data storage directory (Git ignored)
 │   ├── training_pointcloud_hdf5_synthetic.h5
 │   ├── testing_pointcloud_hdf5_synthetic.h5
 │   ├── training_pointcloud_hdf5_real.h5
@@ -121,7 +128,7 @@ Code-3D-PipeCLIP/
 │   ├── dataset.py                        # HDF5 and Numpy PyTorch Dataset drivers
 │   ├── models.py                         # DGCNN structural encoder architecture
 │   └── prompts.py                        # CLIP text tokens and prompt mappings
-├── weights/                              # Engine model checkpoints and text anchors
+├── weights/                              # Engine model checkpoints and text anchors (Git ignored)
 │   ├── geometric_embeddings.pt           # Generated text anchors (Created by Phase 1)
 │   ├── dgcnn_clip_geometric.pt           # Pre-trained synthetic weights (Created by Phase 1)
 │   └── dgcnn_clip_finetuned.pt           # Final adapted model weights (Created by Phase 2)
